@@ -1,4 +1,4 @@
-.tooltip{position:relative;box-sizing:border-box;}
+.tooltip{display:inline-block;position:relative;box-sizing:border-box;}
 .tooltip:hover >.inner,.tooltip.active >.inner{display:block}
 .tooltip >.inner{display:none;padding:5px;background-color:#fff;position:absolute;border:1px solid #aaa;box-sizing:border-box;}
 .tooltip >.inner >.arrow,.tooltip >.inner >.arrow:after{width:0;height:0;position:absolute}
