@@ -9,7 +9,7 @@ http://shallker.github.io/css-tooltip/test
 
 
 ## Todo
-_ width & height detecting dynamically (js)
+- width & height detecting dynamically (js)
 
 
 ## License
