@@ -1,0 +1,43 @@
+doctype 5
+html
+  head
+    title CSS Tooltip
+    link(rel="stylesheet", href="../css/tooltip.css")
+    styles
+      :stylus
+        // center content text
+        .tooltip
+          >.inner
+            >.content
+              text-align center
+              height 40px
+              line-height 40px
+
+  body
+    .box(style="margin-top: 100px; margin-left: 100px")
+      a.fashion.tooltip.right Tooltip right
+        .inner(style="width: 50px; height: 50px;")
+          .arrow
+          .content
+            span Hello
+
+    .box(style="margin-top: 100px; margin-left: 100px")
+      a.fashion.tooltip.left Tooltip left
+        .inner(style="width: 50px; height: 50px;")
+          .arrow
+          .content
+            span Hello
+
+    .box(style="margin-top: 100px; margin-left: 100px")
+      a.fashion.tooltip.bottom Tooltip bottom
+        .inner(style="width: 50px; height: 50px;")
+          .arrow
+          .content
+            span Hello
+
+    .box(style="margin-top: 100px; margin-left: 100px")
+      button.black.fashion.tooltip.top SHARE
+        .inner(style="width: 100px; height: 50px;")
+          .arrow
+          .content
+            span Hello
