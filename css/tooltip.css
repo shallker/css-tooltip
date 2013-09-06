@@ -1,0 +1,17 @@
+.tooltip{position:relative;box-sizing:border-box;}
+.tooltip:hover >.inner,.tooltip.active >.inner{display:block}
+.tooltip >.inner{display:none;padding:5px;background-color:#fff;position:absolute;border:1px solid #aaa;box-sizing:border-box;}
+.tooltip >.inner >.arrow,.tooltip >.inner >.arrow:after{width:0;height:0;position:absolute}
+.tooltip >.inner >.arrow:after{content:''}
+.tooltip.top >.inner{top:0;margin-top:-56px;left:50%;margin-left:-50px;}
+.tooltip.top >.inner >.arrow{border-top:6px solid #808080;border-left:6px solid transparent;border-right:6px solid transparent;bottom:-6px;left:50%;margin-left:-6px}
+.tooltip.top >.inner >.arrow:after{border-top:6px solid #fff;border-left:6px solid transparent;border-right:6px solid transparent;left:-6px;bottom:0;margin-bottom:1px}
+.tooltip.bottom >.inner{bottom:0;margin-bottom:-56px;left:50%;margin-left:-25px;}
+.tooltip.bottom >.inner >.arrow{border-bottom:6px solid #808080;border-left:6px solid transparent;border-right:6px solid transparent;top:-6px;left:50%;margin-left:-6px}
+.tooltip.bottom >.inner >.arrow:after{border-bottom:6px solid #fff;border-left:6px solid transparent;border-right:6px solid transparent;left:-6px;top:0;margin-top:1px}
+.tooltip.right >.inner{right:0;margin-right:-56px;top:50%;margin-top:-25px;}
+.tooltip.right >.inner >.arrow{border-right:6px solid #808080;border-top:6px solid transparent;border-bottom:6px solid transparent;left:-6px;top:50%;margin-top:-6px}
+.tooltip.right >.inner >.arrow:after{border-right:6px solid #fff;border-top:6px solid transparent;border-bottom:6px solid transparent;top:-6px;left:0;margin-left:1px}
+.tooltip.left >.inner{left:0;margin-left:-56px;top:50%;margin-top:-25px;}
+.tooltip.left >.inner >.arrow{border-left:6px solid #808080;border-top:6px solid transparent;border-bottom:6px solid transparent;right:-6px;top:50%;margin-top:-6px}
+.tooltip.left >.inner >.arrow:after{border-left:6px solid #fff;border-top:6px solid transparent;border-bottom:6px solid transparent;top:-6px;right:0;margin-right:1px}
